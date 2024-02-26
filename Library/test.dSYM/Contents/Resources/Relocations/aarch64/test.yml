@@ -1,0 +1,10 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/charliewadds/MultiBody-Dynamics-LG-C/Library/test'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _matrix_new, symObjAddr: 0x0, symBinAddr: 0x100003C98, symSize: 0x174 }
+  - { offsetInCU: 0x41, offset: 0x41, size: 0x8, addend: 0x0, symName: _matrix_new, symObjAddr: 0x0, symBinAddr: 0x100003C98, symSize: 0x174 }
+  - { offsetInCU: 0xA1, offset: 0xA1, size: 0x8, addend: 0x0, symName: _matrix_free, symObjAddr: 0x174, symBinAddr: 0x100003E0C, symSize: 0x7C }
+  - { offsetInCU: 0xE1, offset: 0xE1, size: 0x8, addend: 0x0, symName: _matrix_shape, symObjAddr: 0x1F0, symBinAddr: 0x100003E88, symSize: 0x4C }
+  - { offsetInCU: 0x117, offset: 0x117, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x23C, symBinAddr: 0x100003ED4, symSize: 0x5C }
+...
