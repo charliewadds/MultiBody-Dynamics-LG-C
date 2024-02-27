@@ -26,6 +26,29 @@ matrix *matrix_new(uint8_t num_rows, uint8_t num_cols);
 
 int *matrix_shape(matrix *m);
 
+// Dot product
+matrix *dot(matrix *m1, matrix *m2);
+
+// Cross product
+matrix *cross(matrix *m1, matrix *m2);
+
+// Transpose
+matrix *matrix_transpose(matrix *m);
+
+// Addition
+matrix *matrix_add(matrix *m1, matrix *m2);
+
+// Subtraction
+matrix *matrix_sub(matrix *m1, matrix *m2);
+
+// Scalar multiplication
+matrix *matrix_scalar_mul(matrix *m, double scalar);
+
+// Identity matrix of size nxn
+matrix *eye(uint8_t n);
+
+matrix *diag(double *d, uint8_t n);
+
 // Destructor-like
 // De-allocates the memory for the matrix
 void matrix_free(matrix *m);
